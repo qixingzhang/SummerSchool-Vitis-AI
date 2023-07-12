@@ -87,8 +87,6 @@
     ```shell
     $ sudo pip3 install pynq-dpu --no-build-isolation
     ```
-
-    输出的 `.xmodel` 文件被保存在`compile_output` 目录下
-1. 将 `notebooks/dpu_mnist_classifier.ipynb` 和 `compile_output/MNIST_classifier.xmodel` 上传到 jupyter 中，运行notebook
+1. 将 `notebooks/dpu_mnist_classifier.ipynb` 和 `compile_output/dpu_mnist_classifier.xmodel` 上传到 jupyter 中，运行notebook
 
 
