@@ -90,3 +90,8 @@
 1. 将 `notebooks/dpu_mnist_classifier.ipynb` 和 `compile_output/dpu_mnist_classifier.xmodel` 上传到 jupyter 中，运行notebook
 
 
+## 参考链接
+* Vitis-AI 2.5 GitHub: [https://github.com/Xilinx/Vitis-AI/tree/2.5](https://github.com/Xilinx/Vitis-AI/tree/2.5)
+* Vitis-AI 2.5 文档: [https://docs.xilinx.com/r/2.5-English/ug1414-vitis-ai](https://docs.xilinx.com/r/2.5-English/ug1414-vitis-ai)
+* DPU-PYNQ: [https://github.com/Xilinx/DPU-PYNQ](https://github.com/Xilinx/DPU-PYNQ)
+* DPU for ZU: [https://docs.xilinx.com/r/en-US/pg338-dpu](https://docs.xilinx.com/r/en-US/pg338-dpu)
