@@ -15,10 +15,8 @@ def main():
 
 	if not os.path.exists(args.output):
 		os.mkdir(args.output)
-
-	model = args.model
  
-	float_model = tf.keras.models.load_model(model)
+	float_model = tf.keras.models.load_model(args.model)
 	quantizer = vitis_quantize.VitisQuantizer(float_model)
 	(train_img, train_label), (test_img, test_label) = mnist.load_data()
 	test_img = test_img.reshape(-1, 28, 28, 1) / 255

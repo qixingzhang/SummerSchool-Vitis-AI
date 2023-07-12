@@ -3,11 +3,13 @@
 # delete previous results
 rm -rf ./compile_output
 
-NET_NAME=MNIST_classifier
+NET_NAME=dpu_mnist_classifier
 
 # Can be found in /opt/vitis_ai/compiler/arch/DPUCZDX8G
-# ARCH="ultra96.json"
-ARCH="kv260.json"
+# ARCH=/opt/vitis_ai/compiler/arch/DPUCZDX8G/ZCU104/arch.json
+ARCH=arch/ultra96.json
+# ARCH=arch/kv260.json
+
 
 # Compile
 echo "#####################################"
